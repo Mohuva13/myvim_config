@@ -1,3 +1,12 @@
+#Check Internet connection
+if ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
+  echo "Downloading data..."
+else
+  echo "Please check your internet connection and try again."
+  exit
+fi
+
+
 function progress() {
     echo -ne "Please wait...\n"
     while true
