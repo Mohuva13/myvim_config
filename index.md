@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# myvim_config
+A useful vim config
 
-You can use the [editor on GitHub](https://github.com/Mohuva13/myvim_config/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Installation
+Clone **myvim_config** and open folder <br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Before running this script, make sure to install **vim** and **git**
 
-### Markdown
+Open the terminal and run these commands :
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<ol>
+    <li>Executive access to the script <ul><li>
+        <code> chmod +x config.sh</code>
+    </li></ul></li>
+    <li>Run the configure script  <ul><li>
+        <code> ./config.sh</code>
+    </li></ul></li>
+</ol>
 
-```markdown
-Syntax highlighted code block
+# Used projects
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mohuva13/myvim_config/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<ul>
+    <li><a href=https://github.com/preservim/nerdtree>The NERDTree</a></li>
+    <li><a href=https://github.com/tpope/vim-pathogen>pathogen.vim</a></li>
+</ul>
