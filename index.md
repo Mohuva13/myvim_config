@@ -22,7 +22,5 @@ Open the terminal and run these commands :
 
 # Used projects
 
-
-°→<a href=https://github.com/preservim/nerdtree>The NERDTree</a>◆ <br>
-°→<a href=https://github.com/tpope/vim-pathogen>pathogen.vim</a>◆
-
+◆ [The NERDTree](https://github.com/preservim/nerdtree) <br>
+◆ [pathogen.vim](https://github.com/tpope/vim-pathogen)
