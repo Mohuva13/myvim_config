@@ -3,6 +3,9 @@ A useful vim config
 
 # Installation
 Clone **myvim_config** and open folder <br>
+        <code>git clone git@github.com:Mohuva13/myvim_config.git</code>
+       <br> or <br>
+        <code>git clone https://github.com/Mohuva13/myvim_config.git</code> <br>
 
 Before running this script, make sure to install **vim** and **git**
 
@@ -20,7 +23,6 @@ Open the terminal and run these commands :
 # Used projects
 
 
-<ul>
-    <li><a href=https://github.com/preservim/nerdtree>The NERDTree</a></li>
-    <li><a href=https://github.com/tpope/vim-pathogen>pathogen.vim</a></li>
-</ul>
+°→<a href=https://github.com/preservim/nerdtree>The NERDTree</a>◆ <br>
+°→<a href=https://github.com/tpope/vim-pathogen>pathogen.vim</a>◆
+
