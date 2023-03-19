@@ -22,4 +22,6 @@ Open the terminal and run these commands :
 <ul>
     <li><a href=https://github.com/preservim/nerdtree>The NERDTree</a></li>
     <li><a href=https://github.com/tpope/vim-pathogen>pathogen.vim</a></li>
+	<li><a href=https://github.com/kristijanhusak/vim-hybrid-material>vim-hybrid-material</a></li>
+
 </ul>

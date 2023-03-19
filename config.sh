@@ -19,7 +19,7 @@ function progress() {
 function installer() {
   #Set some vim option in ~/.vimrc
 
-  set_option=('set hlsearch' 'syntax on' 'colorscheme darkblue' 'set number' 'set titlestring=%t' 'set title' 'set ruler' 'set confirm' 'set spell')
+  set_option=('set hlsearch' 'syntax on' 'set background=dark' 'colorscheme hybrid_material' 'set number' 'set mouse=a' 'set titlestring=%t' 'set title' 'set ruler' 'set confirm' 'set spell')
   len_set_option=${#set_option[@]}+1
 
   function setter() {
@@ -38,8 +38,9 @@ function installer() {
     setter
   fi
 
-  #Install 'The NERDTree' plugin and dependency
+  #Install 'The NERDTree' plugin, vim-hybrid-material  and dependency
   #https://github.com/preservim/nerdtree
+  #https://github.com/kristijanhusak/vim-hybrid-material
 
   mkdir -p ~/.vim/autoload ~/.vim/bundle &&
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
@@ -59,6 +60,9 @@ function installer() {
   for ((j = 1; j < len_nerdtree_command_list; j++)); do
     echo "${nerdtree_command_list[j]}" >>~/.vimrc
   done
+
+  git clone https://github.com/kristijanhusak/vim-hybrid-material ~/.vim/bundle/vim-hybrid-material >/dev/null 2>&1
+  cp -r ~/.vim/bundle/vim-hybrid-material/colors/ ~/.vim >/dev/null 2>&1
 
   function set_plugin() {
     vim -c ':Helptags' 1>/dev/null 2>/dev/null
