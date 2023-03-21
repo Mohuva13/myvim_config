@@ -62,7 +62,7 @@ function installer() {
   done
 
   git clone https://github.com/kristijanhusak/vim-hybrid-material ~/.vim/bundle/vim-hybrid-material >/dev/null 2>&1
-  cp -r ~/.vim/bundle/vim-hybrid-material/colors/ ~/.vim >/dev/null 2>&1
+  cp -r ~/.vim/bundle/vim-hybrid-material/colors/ ~/.vim/colors/ >/dev/null 2>&1
 
   function set_plugin() {
     vim -c ':Helptags' 1>/dev/null 2>/dev/null
